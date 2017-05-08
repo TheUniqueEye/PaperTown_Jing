@@ -19,15 +19,17 @@
           app:showAsAction="collapseActionView|ifRoom"
         />
 
-    <item android:id="@+id/list_view"
-          android:title="@string/list_view"
-          android:icon="@drawable/ic_view_list_white_24dp"
-          app:showAsAction="collapseActionView|ifRoom"
-        />
 
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+
+    <item android:id="@+id/list_view"
+        android:title="@string/list_view"
+        android:icon="@drawable/ic_view_list_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        />
 </menu>
